@@ -14,6 +14,12 @@
 <style type="text/css">
 .navbar {
 	background-color: orange;
+	font-size: 20px;
+}
+
+.color {
+	background-color: orange;
+	font-size: 40px;
 }
 </style>
 
@@ -21,7 +27,7 @@
 <body>
 
 	<nav class="navbar navbar-expand-lg bg-Success">
-	
+
 		<div class="container-fluid">
 			<img alt="logo"
 				src="http://pluspng.com/img-png/trivago-logo-png-file-trivago-svg-1024.png"
@@ -37,6 +43,14 @@
 					<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="Registration.jsp">Registration</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="FindAll.jsp">FindAll</a></li>
+						<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="FindById.jsp">FindById</a></li>
+						<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="FindByName.jsp">FindByName</a></li>
+							<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="FindByEmailId.jsp">FindByEmailId</a></li>
 				</ul>
 				<form class="d-flex" role="search">
 					<input class="form-control me-2" type="search" placeholder="Search"
@@ -47,20 +61,22 @@
 		</div>
 	</nav>
 	<img alt="logo"
-				src="https://skift.com/wp-content/uploads/2018/02/trivago-girl.jpg"
-				width="1500" height="550">
+		src="https://skift.com/wp-content/uploads/2018/02/trivago-girl.jpg"
+		width="1530" height="620">
 </body>
-<footer class="text-bg-secondary p-3">
+<footer class="color">
 	<div>
-		<h4>Facebook</h4>
 		<a><img alt="logo"
-			src="https://tse1.explicit.bing.net/th?id=OIP.Ua5AXhtGRgPuisZVmetclQHaFL&pid=Api&P=0&h=180" height="30" width="30"></a>
-	
-<h4>Feedback</h4>
-<a href="https://mail.google.com/mail/u/0/#inbox">
-    <img src="https://www.currentschoolnews.com/wp-content/uploads/2019/04/Gmail-Account-Login.jpg" height="30" width="30"></a>
-    
-</div>
+			src="https://tse1.explicit.bing.net/th?id=OIP.Ua5AXhtGRgPuisZVmetclQHaFL&pid=Api&P=0&h=180"
+			height="30" width="30"></a> <a
+			href="https://mail.google.com/mail/u/0/#inbox"> <img
+			src="https://www.currentschoolnews.com/wp-content/uploads/2019/04/Gmail-Account-Login.jpg"
+			height="30" width="30"></a> <a
+			href="https://www.instagram.com/?hl=en"><img alt="logo"
+			src="https://tse4.mm.bing.net/th?id=OIP.bUnn03oLUdm1hqE6AwEdqAHaHa&pid=Api&P=0&h=180"
+			height="30" width="30"></a>
+	</div>
+	<h5>Copyright@2023 AllRightReserved</h5>
 </footer>
 
 </html>

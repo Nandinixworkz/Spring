@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
+	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,18 +8,29 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="container w-50 border border-dark border-5 mt-5" >
-<h3>Id:${TO.id}</h3>
-<h3>Name:${TO.name}</h3>
-<h3>Age:${TO.age}</h3>
-<h3>Gender:${TO.gender}</h3>
-<h3>Address:${TO.address}</h3>
-<h3>PhoneNo:${TO.phoneNo}</h3>
-<h3>Dob:${TO.dob}</h3>
-<h3>EmailId:${TO.emailId}</h3>
-<h3>AadharNo:${TO.aadharNo}</h3>
-
-
+		<table border="1">
+			<tr>
+				<td>Name</td>
+				<td>Age</td>
+				<td>Gender</td>
+				<td>Address</td>
+				<td>PhoneNo</td>
+				<td>Dob</td>
+				<td>EmailId</td>
+				<td>AadharNo</td>
+			</tr>
+			<tr>
+				<td>${TO.name}</td>
+				<td>${TO.age}</td>
+				<td>${TO.gender}</td>
+				<td>${TO.address}</td>
+				<td>${TO.phoneNo}</td>
+				<td>${TO.dob}</td>
+				<td>${TO.emailId}</td>
+				<td>${TO.aadharNo}</td>
+			</tr>
+		</table>
+		
 </body>
 </html>
 

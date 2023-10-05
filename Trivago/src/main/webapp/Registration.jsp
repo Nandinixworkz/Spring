@@ -13,22 +13,31 @@
 
 <style type="text/css">
 .navbar {
-	background-color: gold;
+	background-color: lightblue;
+	 font-size: 20px;
+}
+.body{
+  background-color: grey;
+}
+.color{
+    background-color: lightblue;
+    font-size: 20px;
 }
 </style>
 </head>
-<body class="p-3 mb-2 bg-danger-subtle text-emphasis-danger">
+<body class="body">
 	<marquee>
-		<h1>Wel come to Trivago</h1>
+		<h4>Wel come to Trivago</h4>
 	</marquee>
 	<form action="save" method="post">
 		<nav class="navbar navbar-expand-lg ">
 
 			<nav class="navbar navbar-expand-lg bg-Success">
 				<div class="container-fluid">
-				<img alt="logo" src="http://pluspng.com/img-png/trivago-logo-png-file-trivago-svg-1024.png" width="100" height="50">
-					<br>
-					<a class="navbar-brand" href="#">Home</a>
+					<img alt="logo"
+						src="http://pluspng.com/img-png/trivago-logo-png-file-trivago-svg-1024.png"
+						width="100" height="50"> <br> <a class="navbar-brand"
+						href="#">Home</a>
 					<button class="navbar-toggler" type="button"
 						data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 						aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -41,69 +50,72 @@
 								aria-current="page" href="Registration.jsp">Registration</a></li>
 						</ul>
 					</div>
-					</br>
-			</div>	
+				</div>
 			</nav>
-			
-
-<br>
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">Id</label> <input
-					type="number" class="form-control" name="id" placeholder="id">
-			</div>
-			<br>
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">Name</label>
-				<input type="text" class="form-control" name="name"
-					placeholder="name">
-			</div>
-         <br>
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">Age</label>
-				<input type="number" class="form-control" name="age"
-					placeholder="age">
-			</div>
-<br>
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">Gender</label>
-				<input type="text" class="form-control" name="gender"
-					placeholder="gender">
-			</div>
-<br>
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">Address</label>
-				<input type="text" class="form-control" name="address"
-					placeholder="address">
-			</div>
-<br>
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">PhoneNo</label>
-				<input type="number" class="form-control" name="phoneNo"
-					placeholder="phoneNo">
-			</div>
-<br>
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">DOB</label>
-				<input type="text" class="form-control" name="dob" placeholder="dob">
-			</div>
-<br>
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">EmailId</label>
-				<input type="text" class="form-control" name="emailId"
-					placeholder="emailId">
-			</div>
-			<br>
-
-			<div class="mb-3">
-				<label for="exampleFormControlInput" class="form-label">AadharNo</label>
-				<input type="number" class="form-control" name="aadharNo"
-					placeholder="aadharNo">
-			</div>
-<br>
-			<input type="submit" class="btn btn-dark"> <input
-				type="reset" class="btn btn-warning">
-		</nav>
+			</nav>
 	
-	</form>
+	<br>
+	<div class="container w-50 border border-dark border-5 mt-5">
+	<div class="mb-3">
+		<label for="exampleFormControlInput" class="form-label">Name</label> <input
+			type="text" class="form-control" name="name" placeholder="name">
+	</div>
+	<br>
+	<div class="mb-3">
+		<label for="exampleFormControlInput" class="form-label">Age</label> <input
+			type="number" class="form-control" name="age" placeholder="age">
+	</div>
+	<br>
+	<div class="mb-3">
+		<label for="exampleFormControlInput" class="form-label">Gender</label>
+		<input type="text" class="form-control" name="gender"
+			placeholder="gender">
+	</div>
+	<br>
+	<div class="mb-3">
+		<label for="exampleFormControlInput" class="form-label">Address</label>
+		<input type="text" class="form-control" name="address"
+			placeholder="address">
+	</div>
+	<br>
+	<div class="mb-3">
+		<label for="exampleFormControlInput" class="form-label">PhoneNo</label>
+		<input type="number" class="form-control" name="phoneNo"
+			placeholder="phoneNo">
+	</div>
+	<br>
+	<div class="mb-3">
+		<label for="exampleFormControlInput" class="form-label">DOB</label> <input
+			type="text" class="form-control" name="dob" placeholder="dob">
+	</div>
+	<br>
+	<div class="mb-3">
+		<label for="exampleFormControlInput" class="form-label">EmailId</label>
+		<input type="text" class="form-control" name="emailId"
+			placeholder="emailId">
+	</div>
+	<br>
+
+	<div class="mb-3">
+		<label for="exampleFormControlInput" class="form-label">AadharNo</label>
+		<input type="number" class="form-control" name="aadharNo"
+			placeholder="aadharNo">
+	</div>
+	<br>
+	<input type="submit" class="btn btn-dark">
+	<input type="reset" class="btn btn-warning">
+</div>
+</form>
 </body>
+<footer class="color">
+	<div>
+		<a><img alt="logo"
+			src="https://tse1.explicit.bing.net/th?id=OIP.Ua5AXhtGRgPuisZVmetclQHaFL&pid=Api&P=0&h=180" height="30" width="30"></a>
+<a href="https://mail.google.com/mail/u/0/#inbox">
+    <img src="https://www.currentschoolnews.com/wp-content/uploads/2019/04/Gmail-Account-Login.jpg" height="30" width="30"></a>
+    <a href="https://www.instagram.com/?hl=en"><img alt="logo" src="https://tse4.mm.bing.net/th?id=OIP.bUnn03oLUdm1hqE6AwEdqAHaHa&pid=Api&P=0&h=180"  height="30" width="30"></a>
+</div>
+<h5>Copyright@2023 AllRightReserved</h5>
+</footer>
+
 </html>
